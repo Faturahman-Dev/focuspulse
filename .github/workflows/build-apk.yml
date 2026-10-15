@@ -35,10 +35,10 @@ jobs:
 
       - name: Build Android APK
         run: |
-          flet build apk --project-name focuspulse
+          flet build apk --project focuspulse --product "FocusPulse" --no-rich-output --yes
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: FocusPulse-APK
-          path: build/apk/*.apk
+          path: build/apk/**
