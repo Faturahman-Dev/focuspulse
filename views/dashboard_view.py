@@ -50,7 +50,7 @@ class DashboardView(ft.Container):
                 ft.Column(
                     spacing=2,
                     controls=[
-                        ft.Text("Halo, Pejuang Fokus! 👋", size=22, weight=ft.FontWeight.BOLD),
+                        ft.Text("Halo, Agung Faturahman! 👋", size=22, weight=ft.FontWeight.BOLD),
                         ft.Text(today_str, size=13, color=ft.Colors.GREY_400),
                     ],
                 ),
